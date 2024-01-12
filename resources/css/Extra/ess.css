@@ -1,0 +1,51 @@
+#scrollable,
+#root-home
+{
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+}
+#root-home{
+    overflow: hidden;
+}
+#scrollable::-webkit-scrollbar,
+#root-home::-webkit-scrollbar
+{
+    display: none;
+}
+
+input:focus,
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='*']:focus
+{
+    box-shadow: 0 0 0 0 0 0;
+    --tw-ring-offset-shadow: 0 0 0 0;
+    --tw-ring-shadow: 0 0 0 0;
+    --tw-ring-offset-width: 0px;
+}
+
+input::placeholder,
+input[type='file']::placeholder,
+textarea::placeholder
+{
+    color: #a6a6a6;
+    opacity: 0.8;
+}
+
+/* input[type='file']
+{
+    visibility: hidden;
+} */
+
+/* #attachment::placeholder{
+    display: none;
+} */
+
+/* #ref{
+    width: 0px !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+} */
+
+
